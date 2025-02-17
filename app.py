@@ -48,7 +48,7 @@ def show_sorteado():
     html_template = '''
     <html>
         <head>
-            <title>Sorteio de Membro do chatCore</title>
+            <title>Sorteio de Membro do ChatCore</title>
             <style>
                 body {
                     font-family: Arial, sans-serif;
@@ -67,7 +67,7 @@ def show_sorteado():
             </style>
         </head>
         <body>
-            <h1>Membro do chatCore Sorteado do Dia</h1>
+            <h1>Membro do ChatCore Sorteado</h1>
             <p>{{ sorteado }}</p>
         </body>
     </html>
