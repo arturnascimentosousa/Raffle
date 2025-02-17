@@ -39,7 +39,7 @@ def draw_member():
 def schedule_task():
     timezone = pytz.timezone('America/Sao_Paulo')
     scheduler = BackgroundScheduler()
-    scheduler.add_job(draw_member, 'cron', hour=14, minute=48, timezone=timezone)
+    scheduler.add_job(draw_member, 'cron', hour=15, minute=5, timezone=timezone)
     scheduler.start()
 
 # Rota principal que exibe o membro sorteado
