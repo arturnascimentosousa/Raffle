@@ -5,7 +5,7 @@ from datetime import datetime
 import pytz
 
 # Lista de membros do chatCore
-chat_core_members = ["Sousa", "Robson", "Ewerton", "Duda", "Nana", "Barcala"]
+chat_core_members = ["Sousa", "Marcus", "Duda", "Nana", "Barcala"]
 
 app = Flask(__name__)
 sorteado = ""
